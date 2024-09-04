@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+body{
+    
+}
+div.all{
+    text-align: center;
+    border: 4px solid greenyellow;
+}
+header{
+    border: 2px solid red;
+    
+} 
+nav{
+    border: 4px solid red;
+    
+}
+main{
+    border: 4px solid red;
+    display: inline-block;
+    width: 1220px;
+    height: 890px;
+    text-align: justify;
+}
+main figure{
+    text-align: center;
+}
+aside{
+    border: 4px solid red;
+    display: inline-block;
+    width: 320px;
+    height: 890px;
+    vertical-align: top;
+    text-align: justify;
+    
+    
+}
+footer{
+    border: 4px solid red;
+    display: inline-block;
+    width: 320px;
+    height: 890px;
+    vertical-align: top;
+    
+}
