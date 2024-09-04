@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body img{
+    margin-top: 10px;
+}
+.cabecalho fieldset {
+    padding: 10px;
+}
+.area-textos{
+    display: -moz-grid-group;
+    padding: 10px;
+    margin: 10px;
+}
+
+.area-textos hr#center{
+   margin: 10px 20%;
+}
+
+.area-textos h1{
+    margin: 10px;
+}
