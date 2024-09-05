@@ -1,0 +1,42 @@
+body{
+    background: white;
+}   
+.area-top h3, h4{
+    padding: 0;
+}
+
+#left #text{
+    float: right;
+    text-align: justify;
+}
+#left img{
+    float: left;
+    margin: 10px;
+}
+.area-top fieldset:hover{
+    background: rgb(185, 189, 194);
+}
+#right #text{
+    float: left;
+    text-align: justify;
+}
+#right img{
+    float: right;
+    margin: 10px;
+}
+.area-bottom div{
+    display: flex;
+    justify-content: center;
+}
+.area-bottom div figure{
+    padding: 20px;
+}
+.area-bottom div figure:hover{
+    background: rgb(185, 189, 194);
+    
+}
+.area-bottom figure figcaption{
+    background: rgb(228, 228, 228);
+    width: 310px;
+    border-radius: 2px
+}
