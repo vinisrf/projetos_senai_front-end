@@ -1,0 +1,160 @@
+body{
+    
+}
+/* area-mapa */
+.area-mapa{
+    border: 2px solid;
+    width: 900px;
+    height: 945px;
+    margin: 0 auto; /*centralizando a div na body*/
+}
+
+/* area-central*/
+.area-central{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+/* area dos circulos */
+div#intensidade{
+    width: 40%;
+    
+}
+div#intensidade #area-grande{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    justify-content: flex-start;
+}
+div#intensidade #area-grande span{
+    margin-left: 20px;
+}
+div#intensidade #area-medio span{
+    margin-left: 50px;
+}
+div#intensidade #area-pequeno span{
+    margin-left: 75px;
+}
+div#intensidade #area-medio{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: flex-start;
+    
+}
+div#intensidade #area-pequeno{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    justify-content: flex-start;    
+}
+#intensidade #area-grande #grande{
+    border: 2px solid;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-left: 5px;
+}
+#intensidade #area-medio #medio{
+    border: 2px solid;
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    margin-left: 30px;
+}
+#intensidade #area-pequeno #pequeno{
+    border: 2px solid;
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    margin-left: 50px;
+}
+
+/* areas dos grupos de riscos */
+#grupos{
+    width: 40%;
+    
+}
+#grupos #area-quimico{
+    display: flex;
+    align-items: center;
+}
+#grupos span{
+    margin-left: 10px;
+}
+#grupos #area-acidente{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+#grupos #area-biologico{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+#grupos #area-fisico{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+#grupos #area-ergonomico{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.area-mapa #grupos #box-quimico{
+    background: red;
+    width: 100px;
+    height: 100px;
+}
+.area-mapa #grupos #box-acidente{
+    background: blue;
+    width: 100px;
+    height: 100px;
+}
+.area-mapa #grupos #box-biologico{
+    background: orange;
+    width: 100px;
+    height: 100px;
+}
+.area-mapa #grupos #box-fisico{
+    background: green;
+    width: 100px;
+    height: 100px;
+}
+.area-mapa #grupos #box-ergonomico{
+    background: black;
+    width: 100px;
+    height: 100px;
+}
+
+/* area daas img´s */
+.area-img{
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    padding-top: 10px;
+    
+}   
+.area-img img{
+    padding: 10px 10px;
+    width: 170px;
+}
+
+/* area-links */
+.area-links{
+    background: rgba(160, 154, 154, 0.699);
+    display: inline-block;
+    margin-left: 80px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 1px;
+}
+#logo-gov{
+    border-radius: 100%;
+}
+#logo-g1{
+    border-radius: 100%;
+}
