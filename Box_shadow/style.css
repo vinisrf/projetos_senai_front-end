@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;;
+}
+main{
+    
+}
+section{
+    margin: 50px auto;
+    
+
+    width: 300px;
+    height: 50rem;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+section div{
+    border: 1px solid;
+    width: 120px;
+    height: 130px;
+
+    display: flex;
+    align-items: self-start;
+}
+.div-left{
+    border-left: none;
+}
+.div-right{
+    border-right: none;
+}
+section > div > div{
+    background: rgba(247, 140, 0, 0.932);
+    border: 4px solid rgba(14, 49, 206, 0.808);
+    width: 100px;
+    height: 100px;
+    margin-top: 2px;
+}
+#div1{
+    border-radius: 15px;
+    box-shadow:  10px 10px 5px rgb(158, 149, 149);
+}
+#div2{
+    box-shadow:  10px 10px 1px rgb(158, 149, 149);
+}
+#div3{
+    border-radius: 15px;
+    box-shadow:  inset 6px 6px 2px rgba(54, 51, 51, 0.616);
+}
+#div4{
+    box-shadow:  inset 5px 5px 2px rgba(54, 51, 51, 0.616);
+}
+#div5{
+    border-radius: 15px;
+    box-shadow: 10px 10px 2px 8px rgba(54, 51, 51, 0.616);
+}
+#div6{
+    box-shadow: 7px 10px 2px 6px rgba(54, 51, 51, 0.616);
+}
+#div7{
+    border-radius: 15px;
+    box-shadow: inset 8px 8px 2px 6px rgba(54, 51, 51, 0.616);
+}
+#div8{
+    box-shadow: inset 8px 8px 2px 6px rgba(54, 51, 51, 0.616);
+}
