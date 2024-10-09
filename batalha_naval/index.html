@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Batalha Naval - Senai - Front-End</title>
+</head>
+<body>
+    <main>
+        <h1 align="center">Batalha Naval</h1>
+
+        <div id="area-informativos">
+            <div class="area-niveis">
+                <h3>Nível</h3>
+                <div>
+                    <input type="checkbox" id="checkbox-facil">
+                    <label>Facil</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="checkbox-moderado">
+                    <label>Moderado</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="checkbox-dificil">
+                    <label>Dificil</label>
+                </div>
+                
+                <div id="area-placar">
+                    
+                    <label>SCORE</label>
+                    <p id="score">-</p>
+                </div>
+
+                <div id="area-info">
+                    <label>Resultado</label>
+                    <p id="resultado">-</p>
+                    <label>N° Munição</label>
+                    <p id="n-balas">0</p>
+                </div>
+
+                <div class="area-controls">
+                    <button type="button" id="btt-start">START</button>
+                    <button type="button" id="btt-reset">RESET</button>
+                </div>
+            </div>
+
+            <div id="area-manual">
+
+                <p>**Para iniciar uma rodada, escolha um <strong> NÍVEL</strong>  e tecle <strong>START</strong>**</p>
+                <br><br>
+                <p> <strong> Nível fácil:</strong> Você terá 15 munições iniciais</p>
+                <br>
+                <p> <strong> Nível moderado:</strong> Você terá 10 munições iniciais</p>
+                <br>
+                <p> <strong> Nível difícil:</strong> Você terá 5 munições iniciais</p>
+                <br>
+                <h4>"Divirta-se!</h4>
+
+            </div>
+        </div>
+
+        <table align="left">  
+            <tr>  
+                <td class="coll"></td>  
+                <td class="coll">1</td>  
+                <td class="coll">2</td>  
+                <td class="coll">3</td>  
+                <td class="coll">4</td>  
+                <td class="coll">5</td>  
+            </tr>  
+            <tr>  
+                <td class="coll-line">A</td>  
+                <td class="cell-1"></td>  
+                <td class="cell-2"></td>  
+                <td class="cell-3"></td>  
+                <td class="cell-4"></td>  
+                <td class="cell-5"></td>  
+            </tr>  
+            <tr>  
+                <td class="coll-line">B</td>  
+                <td class="cell-6"></td>  
+                <td class="cell-7"></td>  
+                <td class="cell-8"></td>  
+                <td class="cell-9"></td>  
+                <td class="cell-10"></td>  
+            </tr>  
+            <tr>  
+                <td class="coll-line">C</td>  
+                <td class="cell-11"></td>  
+                <td class="cell-12"></td>  
+                <td class="cell-13"></td>  
+                <td class="cell-14"></td>  
+                <td class="cell-15"></td>  
+            </tr>  
+            <tr>  
+                <td class="coll-line">D</td>  
+                <td class="cell-16"></td>  
+                <td class="cell-17"></td>  
+                <td class="cell-18"></td>  
+                <td class="cell-19"></td>  
+                <td class="cell-20"></td>  
+            </tr>  
+            <tr>  
+                <td class="coll-line">E</td>  
+                <td class="cell-21"></td>  
+                <td class="cell-22"></td>  
+                <td class="cell-23"></td>  
+                <td class="cell-24"></td>  
+                <td class="cell-25"></td>  
+            </tr>  
+        </table>
+    </main>
+    
+</body>
+</html>

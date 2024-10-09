@@ -1,0 +1,63 @@
+
+body{
+    background-image: url('img/capa-batalha-naval.png');
+    background-size: cover;
+    
+}
+main{
+    margin-top: 0;
+}
+main h1{
+    color: rgba(228, 228, 228, 0.904);
+    margin-top: 0;
+}
+#area-informativos{
+    display: flex;
+    justify-content: space-between;
+
+}
+.area-niveis{
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    padding-left:  0;
+    text-align: left;
+}
+p{
+    background: white;
+    display: inline-block;
+    min-width: 50px;
+    text-align: center;
+}
+#area-manual{
+    
+    background: white;
+    right: 0;
+    top: 2rem;
+    width: 27rem;
+    height: auto;
+}
+table .coll-line{
+    width: 20px;
+    background: gray;
+    text-align: center;
+    border: 2px solid;
+}
+table .coll{
+    height: 20px;
+    background: gray;
+    text-align: center;
+    border: 2px solid;
+}
+table{
+    border: 2px solid;
+}
+table td[class^="cell"]{
+    text-align: none;
+    background-color: cadetblue;
+    width: 40px;
+    height: 40px;
+    border: 2px solid;
+    text-align: center;  
+    cursor: pointer;  
+}
